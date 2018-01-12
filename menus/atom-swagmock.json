@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-swagmock",
+        "command": "atom-swagmock:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-swagmock",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-swagmock:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
