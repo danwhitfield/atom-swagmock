@@ -1,12 +1,11 @@
 {
   "name": "atom-swagmock",
   "main": "./lib/atom-swagmock",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "version": "1.0.0",
+  "description": "Generate mock JSON data from Swagger in Atom.",
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "atom-swagmock:toggle"
+    "atom-workspace": "atom-swagmock:generate"
   },
   "repository": "https://github.com/atom/atom-swagmock",
   "license": "MIT",
@@ -14,5 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
+    "swagmock": "^1.1.0-alpha.1"
   }
 }
